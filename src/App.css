@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 720px) {
+  body {
+    background-repeat: repeat;
+  }
+}

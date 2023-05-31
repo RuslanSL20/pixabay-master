@@ -1,0 +1,44 @@
+.search__container {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    min-width: 100px;
+    transition: transform 500ms ease;
+}
+
+.search__input {
+    margin: auto;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #00000056;
+    text-align: center;
+}
+
+.search__btn {
+    padding: 5px 25px;
+    margin-top: 1rem ;
+    margin-left: 1rem;
+    box-shadow: 5px 5px 5px #00000056;
+    transition: transform 500ms ease;
+}
+
+.search__btn-icon {
+    width: 1.5rem;
+}
+
+.search__reset {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(50%, -50%);
+}
+
+.search__container:hover{
+    transform: scale(1.05);
+}
+
+.search__btn:hover{
+    transform: scale(1.05);
+}

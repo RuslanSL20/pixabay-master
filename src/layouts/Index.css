@@ -1,0 +1,46 @@
+.brand__title {
+    display: inline-block;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 6rem;
+    color: #fff;
+    background-color: #8EE7DC;
+    padding: 20px;
+    margin-bottom: 2rem;
+    transition: transform 500ms ease;
+    font-family: 'Cherry Bomb One', cursive;
+}
+
+.result__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text-error {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem ;
+    margin-left: 1rem;
+    font-family: 'Cherry Bomb One', cursive;
+}
+
+.container {
+    width: 80%;
+    max-width: 960px;
+    margin: auto;
+}
+
+.brand__title:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 720px) {
+    .brand__title {
+        font-size: 2rem;
+        padding: 10px;
+    }
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
